@@ -25,3 +25,7 @@ section{
     font-weight: 700;
     border-radius:5px;
 }
+.top-banner{
+    background-image: url("own show/top.jpg");
+    background-repeat:no-repeat;
+}
