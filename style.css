@@ -1,6 +1,7 @@
 body {
   font-family: "poppins", sans-serif;
-  margin: 0px;
+  margin: 0px 100px;
+  align-items: center;
 }
 h1 {
   font-size: 50px;
@@ -14,11 +15,10 @@ section {
 }
 .half-width {
   width: 50%;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 .half-width img {
-  width: 80%;
+  width: 90%;
+  margin: 20px;
 }
 .link-button {
   text-decoration: none;
@@ -29,13 +29,17 @@ section {
   border-radius: 5px;
 }
 .top-banner {
-  background-image: url("own show/—Pngtree—neon\ blue\ circle\ banner\ with_5433148.png");
+  background-image: url("");
   background-repeat: no-repeat;
-  background-size: 70px;
+  background-size: 90px;
 }
 
-.dream-big {
+.dream-big .right {
   background-image: url("own show/bg4.jpg");
   background-repeat: no-repeat;
   background-position: right;
+  background-size: auto;
+}
+.dream-big {
+  height: 50;
 }
